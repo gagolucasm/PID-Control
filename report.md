@@ -21,3 +21,7 @@ All the parameters were tuned by hand, following this algorithm:
 ### Speed Control
 
 Another PID was tuned for the speed control
+
+### Results
+
+The car was tuned to successfully complete a lap in 30, 40 and 50 mph with different parameters.
