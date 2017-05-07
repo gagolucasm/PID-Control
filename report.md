@@ -5,11 +5,11 @@
 
 ### PID Parameters
 
-The effect of P is proportional to the error. As the error gets bigger, the car turn faster, and it occilates.
+The effect of P is proportional to the error. As the error gets bigger, the car turns faster, and it oscillates.
 
-The effect of I is propotional to the error and the sum of the previous ones. This is helpfull when the car is in a steady position not exactly on the center of the lane, as the error is to small for the P and D parameters, over time will be big enough for the I to act.
+The effect of I is proportional to the error and the sum of the previous ones. This is helpful when the car is in a steady position not exactly on the center of the lane, as the error is too small for the P and D parameters, over time will be big enough for the I to act.
 
-The effect of D is proportional to the rate of change of the error. It could help the sistem stability.
+The effect of D is proportional to the rate of change of the error. It could help the system stability.
 
 All the parameters were tuned by hand, following this algorithm:
 
